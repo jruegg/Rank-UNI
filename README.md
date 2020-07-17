@@ -20,6 +20,12 @@ With the objective to provide a source of motivation for the users by the means 
 |  14 August      |   Early frontend testing done     |
 |  4 September      |   Proyect finished, deployed on AWS     |
 
+## Updates
+
+### 17 July 2020
+
+New medium fidelity prototype ready.
+Test it [here](https://www.figma.com/proto/CM9vb6xJhSnE7u4dUaVZ9a/RANKUNI?node-id=86%3A1&scaling=scale-down).
 
 ## Project site
 
