@@ -15,7 +15,7 @@
           <v-progress-circular :value="60" :size="80" :width="15">
             60%
           </v-progress-circular>
-          <v-btn small>
+          <v-btn small to="/uni">
             UNI
           </v-btn>
         </v-col>
@@ -23,7 +23,7 @@
           <v-progress-circular :value="68" :size="80" :width="15">
             68%
           </v-progress-circular>
-          <v-btn small>
+          <v-btn small to="/fc">
             FC
           </v-btn>
         </v-col>
@@ -31,7 +31,7 @@
           <v-progress-circular :value="70" :size="80" :width="15">
             70%
           </v-progress-circular>
-          <v-btn small>
+          <v-btn small to="/cc">
             CC
           </v-btn>
         </v-col>
