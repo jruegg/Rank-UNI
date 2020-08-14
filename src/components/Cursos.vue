@@ -64,7 +64,7 @@ export default {
           },
         },
       },
-      colors: ['#cc33b8'],
+      colors: ['#618eed'],
       dataLabels: {
         enabled: true,
         textAnchor: 'start',
