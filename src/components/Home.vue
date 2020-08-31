@@ -39,7 +39,7 @@
 
       <v-row>
         <v-col align="center">
-          <v-btn small>
+          <v-btn small to="/cursos">
             Estado de los cursos
           </v-btn>
           <apexchart type="radar" height="350" :options="chartOptions" :series="series"></apexchart>
