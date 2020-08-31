@@ -1,5 +1,6 @@
 <template>
   <div>
+    <v-breadcrumbs :items="items"></v-breadcrumbs>
     <v-container>
       <v-row>
         <v-col>
@@ -44,6 +45,18 @@ export default {
   },
 
   data: () => ({
+    items: [
+      {
+        text: 'Dashboard',
+        disabled: false,
+        href: 'home',
+      },
+      {
+        text: 'Cursos',
+        disabled: true,
+        href: 'cursos',
+      },
+    ],
     series: [{
       data: [7.6, 12.4, 18.7, 10.9, 15.1],
     }],
