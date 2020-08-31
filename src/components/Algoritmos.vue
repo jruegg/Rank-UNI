@@ -77,6 +77,7 @@
             <v-card
               :color="item.color"
               dark
+              @click="handleClick(item.name)"
             >
               <v-card-text>
                 <table>
@@ -180,6 +181,12 @@ export default {
       },
     },
   }),
+
+  methods: {
+    handleClick(name) {
+      this.$router.push(name.toLowerCase());
+    },
+  },
 };
 
 </script>

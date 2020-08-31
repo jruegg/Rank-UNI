@@ -4,7 +4,7 @@
       <v-row>
         <v-col>
           <v-card class="text-center">
-              Practica calificada 02
+              Practica calificada 03
           </v-card>
         </v-col>
       </v-row>
@@ -17,7 +17,7 @@
                   Nota
                 </td>
                 <td>
-                  7.5
+                  11.45
                 </td>
               </tr>
               <tr>
@@ -25,7 +25,7 @@
                   Rank
                 </td>
                 <td>
-                  18/18
+                  12/18
                 </td>
               </tr>
             </table>
@@ -54,13 +54,13 @@
 <script>
 
 export default {
-  name: 'Pc2',
+  name: 'Pc3',
 
   components: {
   },
 
   data: () => ({
-    series: [0, 12, 6],
+    series: [5, 10, 3],
     chartOptions: {
       chart: {
         type: 'donut',
@@ -116,8 +116,8 @@ export default {
 
     seriesBar: [{
       name: 'Distribución',
-      data: [0, 0, 0, 1, 2, 1, 3, 5, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0],
+      data: [0, 0, 0, 0, 0, 1, 1, 5, 4, 0, 0,
+        1, 1, 1, 0, 2, 0, 0, 1, 0],
     }],
     chartBarOptions: {
       chart: {

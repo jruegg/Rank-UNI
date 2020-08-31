@@ -8,7 +8,9 @@ import Cc from '../components/Cc.vue';
 
 import Cursos from '../components/Cursos.vue';
 import Algoritmos from '../components/Algoritmos.vue';
+import Pc1 from '../components/Pc1.vue';
 import Pc2 from '../components/Pc2.vue';
+import Pc3 from '../components/Pc3.vue';
 
 Vue.use(VueRouter);
 
@@ -38,8 +40,16 @@ const routes = [
     component: Algoritmos,
   },
   {
-    path: '/pc2',
+    path: '/pc01',
+    component: Pc1,
+  },
+  {
+    path: '/pc02',
     component: Pc2,
+  },
+  {
+    path: '/pc03',
+    component: Pc3,
   },
 ];
 
