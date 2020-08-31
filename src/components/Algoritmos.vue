@@ -1,5 +1,6 @@
 <template>
   <div>
+    <v-breadcrumbs :items="itemsBread"></v-breadcrumbs>
     <v-container>
       <v-row>
         <v-col align="center">
@@ -117,6 +118,23 @@ export default {
   },
 
   data: () => ({
+    itemsBread: [
+      {
+        text: 'Dashboard',
+        disabled: false,
+        href: 'home',
+      },
+      {
+        text: 'Cursos',
+        disabled: false,
+        href: 'cursos',
+      },
+      {
+        text: 'Algoritmos',
+        disabled: true,
+        href: 'algoritmos',
+      },
+    ],
     items: [
       {
         color: 'red lighten-2',

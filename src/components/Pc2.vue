@@ -1,5 +1,6 @@
 <template>
   <div>
+    <v-breadcrumbs :items="itemsBread"></v-breadcrumbs>
     <v-container>
       <v-row>
         <v-col>
@@ -60,6 +61,28 @@ export default {
   },
 
   data: () => ({
+    itemsBread: [
+      {
+        text: 'Dashboard',
+        disabled: false,
+        href: 'home',
+      },
+      {
+        text: 'Cursos',
+        disabled: false,
+        href: 'cursos',
+      },
+      {
+        text: 'Algoritmos',
+        disabled: false,
+        href: 'algoritmos',
+      },
+      {
+        text: 'PC 2',
+        disabled: true,
+        href: 'pc02',
+      },
+    ],
     series: [0, 12, 6],
     chartOptions: {
       chart: {
