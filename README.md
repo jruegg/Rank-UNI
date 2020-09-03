@@ -39,6 +39,13 @@ and then "npm run serve".
 
 Site should run on port 8080.
 
+### 3 September
+
+App up and running.
+Check [here](https://rank-uni.herokuapp.com/)
+
+¯\\(◉‿◉)/¯
+
 ## Project site
 
 [Here](https://jruegg.github.io/Rank-UNI/)
