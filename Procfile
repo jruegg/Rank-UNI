@@ -1,1 +1,1 @@
-web: npm run serve --fix
+web: serve -s dist
